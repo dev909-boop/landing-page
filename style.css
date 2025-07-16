@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
@@ -40,5 +40,38 @@ img {
     height: 150px;
     width: 300px;
 
+}
+
+.hero-section {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 48px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.left-hero-section {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+}
+
+.right-hero-section {
+    display: flex;
+    align-items: center;
 }
 

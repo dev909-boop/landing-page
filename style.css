@@ -128,4 +128,21 @@ ul {
     font-weight: 900;   
 }
 
+.call-to-action-section {
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
+
 

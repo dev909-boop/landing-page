@@ -129,11 +129,40 @@ ul {
 }
 
 .call-to-action-section {
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 30px 70px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-main-text {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.call-secondary-text {
+    font-size: 14px;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    padding: 5px 28px;
+    border-radius: 8px;
+    font-weight: 900;
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;

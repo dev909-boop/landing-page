@@ -82,6 +82,7 @@ ul {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .information-cards{
@@ -95,7 +96,7 @@ ul {
 
 .card {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     
 }
 
@@ -103,8 +104,28 @@ ul {
     border: 4px solid #3882f6;
     border-radius: 8px;
     width: 100px;
-    height: 100px;
-    
+    height: 100px; 
+}
+
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-person {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 900;   
 }
 
 

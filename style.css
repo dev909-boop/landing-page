@@ -71,6 +71,21 @@ ul {
     align-items: center;
 }
 
+.hero-sign-up {
+    display: flex;
+
+}
+
+.hero-section button {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top: 8px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
 .information-section-title {
     font-size: 36px;
     font-weight: 900;
